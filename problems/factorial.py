@@ -7,3 +7,14 @@ number=0
 for i in range(1,N+1):
     number+=i
 print(f"the sum of natural number upto {N} is {number}")
+
+
+Declare
+f NUMBER=1;
+n NUMBER=16;-- compute16!
+BEGIN 
+   FOR i IN 1..n LOOP
+f:=f*i;
+END LOOP
+print( 'Factorial of'||n||'is'||f);
+END;
